@@ -1,0 +1,37 @@
+# Ignore logs
+logs/
+*.log
+
+# Ignore generated files
+target/
+*.class
+
+# Ignore build artifacts
+build/
+bin/
+*.war
+*.ear
+
+# Ignore Maven specific files
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore IntelliJ IDEA files
+.idea/
+
+# Ignore Eclipse files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Ignore NetBeans files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+node_modules/
